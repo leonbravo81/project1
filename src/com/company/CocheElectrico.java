@@ -11,7 +11,7 @@ public class CocheElectrico extends Coche{
 
     public CocheElectrico(String color, String fabricante, String modelo, Double peso, Double largo){
         super(color, fabricante, modelo, peso, largo);//Con esto estamos invocando el construtor de la clase madre
-        this.motorElectrico = motorElectrico;
+        //this.motorElectrico = motorElectrico;
     }
 
     @Override
